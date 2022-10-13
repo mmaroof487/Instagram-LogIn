@@ -9,6 +9,14 @@
       type="image/x-icon"
       href="assets/Screenshot_2022-10-13_at_00-29-21_instagram_icon_-_Google_Search-removebg-preview.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
     <link rel="stylesheet" href="assets/style.css" />
     <title>Instagram - Login</title>
   </head>
@@ -25,10 +33,15 @@
           <input type="text" placeholder="Phone Number or Email Address" />
           <br />
           <input type="password" placeholder="Password" /> <br />
-          <input type="submit" value="Log In" /> <br />
-          <hr />
-          <a href=""> Log in with Facebook </a> <br />
-          <small><a href="">Forgotten Password?</a></small>
+          <input type="submit" value="Log In" id="submit" /> <br />
+          <div id="line"></div>
+          <div id="or">OR</div>
+          <br />
+          <a href="" id="facebook">
+            <i class="fa-brands fa-facebook"></i> &nbsp Log in with Facebook
+          </a>
+          <br />
+          <small><a href="" id="facebook">Forgotten Password?</a></small>
         </div>
         <br />
         <div id="signup">Don't have an account? <a href=""> Sign Up</a></div>
@@ -43,7 +56,6 @@
         </div>
       </div>
     </main>
-    <br /><br /><br />
     <section>
       <a href="">Meta</a><a href="">About</a><a href="">Blogs</a>
       <a href="">Jobs</a><a href="">Help</a><a href="">API</a
@@ -54,7 +66,6 @@
       <a href="">Home & Garden</a><a href="">Music</a>
       <a href="">Visual Art</a>
     </section>
-    <br /><br />
     <footer>ENGLISH &nbsp &nbsp &copy 2022 Instagram from Meta</footer>
   </body>
 </html>

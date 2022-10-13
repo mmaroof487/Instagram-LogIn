@@ -1,33 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: roboto;
 }
 a {
   text-decoration: none;
 }
 main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  min-height: calc(100vh - 80px);
 }
 #login,
 #signup {
-  border: 1px solid grey;
-  padding: 15px;
+  border: 1px solid lightgrey;
   align-items: center;
   text-align: center;
+  padding: 10px 0;
 }
 #login input {
-  margin: 2px 5px;
-  padding: 5px;
+  width: 85%;
+  margin: 7px auto;
+  padding: 9px 8px;
+}
+#line {
+  background-color: lightgray;
+  height: 1px;
+  margin: 20px;
+}
+#or {
+  display: inline-block;
+  width: 50px;
+  font-size: small;
+  position: relative;
+  background-color: #fff;
+  bottom: 26px;
+  color: rgb(103, 102, 102);
+}
+#submit {
+  margin: 8px 40px;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+#facebook {
+  display: block;
+  color: #385185;
+  margin-bottom: 10px;
 }
 #signup {
   text-align: center;
+  margin: 0 0 10px;
+  padding: 25px 0;
+}
+#signup a {
+  color: #385185;
 }
 section {
   font-size: small;
   text-align: center;
+  margin-bottom: 30px;
 }
 section a {
   margin: 5px;
@@ -43,4 +80,5 @@ footer {
   font-size: x-small;
   text-align: center;
   color: gray;
+  vertical-align: bottom;
 }
