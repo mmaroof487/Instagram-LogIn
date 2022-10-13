@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 a {
   text-decoration: none;
@@ -10,11 +11,19 @@ main {
   justify-content: space-evenly;
   align-items: center;
 }
-#login {
-  border: 1px solid grey;
-}
+#login,
 #signup {
   border: 1px solid grey;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+#login input {
+  margin: 2px 5px;
+  padding: 5px;
+}
+#signup {
+  text-align: center;
 }
 section {
   font-size: small;
@@ -22,8 +31,16 @@ section {
 }
 section a {
   margin: 5px;
+  color: gray;
+}
+#app {
+  text-align: center;
+}
+#app img {
+  margin: 10px;
 }
 footer {
   font-size: x-small;
   text-align: center;
+  color: gray;
 }
