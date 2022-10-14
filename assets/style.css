@@ -82,3 +82,13 @@ footer {
   color: gray;
   vertical-align: bottom;
 }
+@media (max-width: 850px) {
+  #image {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  #parent {
+    width: 85%;
+  }
+}
