@@ -27,6 +27,13 @@ main {
   margin: 7px auto;
   padding: 9px 8px;
 }
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border-color: #0095f6;
+}
+input[type="submit"]:hover {
+  background-color: #023f68;
+}
 #line {
   background-color: lightgray;
   height: 1px;
