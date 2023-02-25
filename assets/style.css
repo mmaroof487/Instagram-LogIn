@@ -12,6 +12,14 @@
 a {
   text-decoration: none;
 }
+#loadingscreen {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  z-index: 2;
+  display: none;
+  background-color: white;
+}
 main {
   margin: 50px;
   display: flex;
