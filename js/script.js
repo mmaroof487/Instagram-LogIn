@@ -1,17 +1,23 @@
-var x = document.getElementById('username');
-var y = document.getElementById('password');
-var z = document.getElementById('submit');
-var a = document.getElementById('loadingscreen');
+const x = document.getElementById('username');
+const y = document.getElementById('password');
+const z = document.getElementById('submit');
+const a = document.getElementById('loadingscreen');
 
-var name = "muhammad_maroof1";
-var pass = "ilu>c8csab";
+let name = "muhammad_maroof1";
+let pass = "ilu>c8csab";
+
+const date = new Date();
+const time = date.toDateString();
 
 z.onclick = function(){
     if ( x.value == name && y.value == pass){
         console.log("Login Succesful");
         a.style.display = "block";
+        console.log(time);
         return false;
     }else{
         console.log("Login Failed");
+        console.log(time);
     }
 };
+
